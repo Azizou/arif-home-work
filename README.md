@@ -19,9 +19,11 @@ Only run the above command the first time you install git, not for every project
 
 #Adding git to project and project files to git
 Got into your project directory and run:
-```git init
+
+```
+git init
 git add -A
-git commit -m “Initial commit”
+git commit -m "Initial commit"
 ```
 #Remote repository:
 Create a github account through github.com
@@ -32,6 +34,7 @@ give a descriptive name like python-homeworks-solutions and hit Create repositor
 
 #Uploading the code
 Go back to your command line and execute:
+
 ```
 git remote add origin git@github.com:Azizou/arif-home-work.git (this should be the link of the repo you created
 git push -u origin master
