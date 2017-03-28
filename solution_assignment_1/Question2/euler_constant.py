@@ -20,4 +20,4 @@ def compute_e():
 
 if __name__ == '__main__':
 	n, e = compute_e()
-	print(e)
+	print("{0:.11f}".format(e)) #11 decimal places
